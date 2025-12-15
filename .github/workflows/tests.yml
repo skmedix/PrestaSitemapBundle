@@ -14,12 +14,12 @@ jobs:
         include:
           - php-version: 8.1
             symfony-version: 6.4.*
-          - php-version: 8.4
+          - php-version: 8.5
             symfony-version: 6.4.*
 
           - php-version: 8.2
             symfony-version: 7.4.*
-          - php-version: 8.4
+          - php-version: 8.5
             symfony-version: 7.4.*
 
           - php-version: 8.4
@@ -58,7 +58,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - php-version: 8.4
+          - php-version: 8.5
             symfony-version: 8.0.*
 
     steps:
@@ -98,7 +98,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - php-version: 8.4
+          - php-version: 8.5
             symfony-version: 8.0.*
 
     steps:
@@ -132,7 +132,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - php-version: 8.4
+          - php-version: 8.5
             symfony-version: 8.0.*
 
     steps:
